@@ -1,0 +1,59 @@
+1. Configure Username And Email -
+
+$ git config --global user.name "rakibul101" $ git config --global user.email "101rakibulhasan@gmail.com"
+
+2. To Know About Files Status In Git
+
+$ git status
+
+3. Track A New Add File
+
+$ git add <new file name>
+
+4. Commit Folder To Repository With Mesage In Local System
+
+$ git commit -m "html file example" -m "Some Description"
+
+5. Upload Local Files To Remote Git Repository
+
+$ git push
+
+6. Create SSH Key
+
+$ ssh-keygen -t rsa -b 4096 -C "101rakibulhasan@gmail.com"
+
+7. Read The SSH Key for Github
+
+$ cat <public_key_name.pub in ./ssh folder>
+
+8. Make A Local New Folder Into A Git Repository
+
+$ git init
+
+9. Connect Remote Repository For New Local Folder
+
+$git remote add origin https://github.com/rakibul101/local-repo.git
+
+10. Check Git Remote
+
+$ git remote -v
+
+11. Check Git Branch
+
+$ git branch
+
+12. Create A New Branch
+
+$ git checkout -b <NEW_BRANCH_NAME>
+
+13. Change Into Another Branch
+
+$ git checkout <BRANCH_NAME>
+
+14. Check Difference Between Branch To Branch
+
+$ git diff <OTHER_BRANCH_NAME>
+
+15. Delete Branch
+
+$git branch -d <BRANCH_NAME>
