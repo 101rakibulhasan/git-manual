@@ -57,3 +57,8 @@ $ git diff <OTHER_BRANCH_NAME>
 15. Delete Branch
 
 $git branch -d <BRANCH_NAME>
+
+16. Ignore dubious ownership for every directory
+
+git config --global --unset safe.directory
+
