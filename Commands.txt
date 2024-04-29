@@ -60,5 +60,5 @@ $git branch -d <BRANCH_NAME>
 
 16. Ignore dubious ownership for every directory
 
-git config --global --unset safe.directory
+git config --global --add safe.directory '*'
 
