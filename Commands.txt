@@ -1,6 +1,6 @@
 1. Configure Username And Email -
 
-$ git config --global user.name "rakibul101" 
+$ git config --global user.name "101rakibulhasan" 
   git config --global user.email "101rakibulhasan@gmail.com"
 
 2. To Know About Files Status In Git
