@@ -1,6 +1,7 @@
 1. Configure Username And Email -
 
-$ git config --global user.name "rakibul101" $ git config --global user.email "101rakibulhasan@gmail.com"
+$ git config --global user.name "rakibul101" 
+  git config --global user.email "101rakibulhasan@gmail.com"
 
 2. To Know About Files Status In Git
 
@@ -56,9 +57,9 @@ $ git diff <OTHER_BRANCH_NAME>
 
 15. Delete Branch
 
-$git branch -d <BRANCH_NAME>
+$ git branch -d <BRANCH_NAME>
 
 16. Ignore dubious ownership for every directory
 
-git config --global --add safe.directory '*'
+$ git config --global --add safe.directory '*'
 
